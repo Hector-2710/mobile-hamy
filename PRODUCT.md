@@ -46,7 +46,8 @@ Un álbum privado de dos personas, no una red social ni un almacén de archivos.
 - Nombre: **Juntos** (repositorio `mobile_hamy`).
 - Idioma y voz: español de España, íntima y cálida, en minúscula y sin jerga técnica; frases como "Nuestra vida, en fotos" o "Pequeños momentos que siempre querremos recordar" son la referencia de tono.
 - Logotipo existente: `lib/logo.jpeg`, mostrado por `lib/core/widgets/app_logo.dart`.
-- La pareja se representa con dos avatares (iniciales superpuestas), no con una sola cuenta protagonista.
+- Mundo visual: la fresa y la guinda del logotipo gobiernan el sistema (papel crema, fresa de acción, guinda de profundidad, hoja de apoyo). La app es de modo claro por identidad de papel; no es una app de fotos genérica ni una red social.
+- La pareja se representa con dos avatares superpuestos (la inicial de quien entra y un corazón), no con una sola cuenta protagonista.
 
 ## Evidence on Hand
 

@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T03:52:08+00:00",
+  "title": "Design System: Juntos",
+  "extensions": {
+    "colorMeta": {
+      "paper-cream": {
+        "role": "neutral",
+        "displayName": "Paper Cream",
+        "canonical": "#FBF4EA",
+        "tonalRamp": [
+          "#1A150E",
+          "#352F28",
+          "#524C44",
+          "#716B62",
+          "#918B82",
+          "#B3ADA4",
+          "#D7D0C6",
+          "#F4EDE4"
+        ]
+      },
+      "page-white": {
+        "role": "neutral",
+        "displayName": "Page White",
+        "canonical": "#FFFCF7",
+        "tonalRamp": [
+          "#1B160F",
+          "#363029",
+          "#534D45",
+          "#726C63",
+          "#938C83",
+          "#B5AEA4",
+          "#D9D1C7",
+          "#F6EEE5"
+        ]
+      },
+      "warm-linen": {
+        "role": "neutral",
+        "displayName": "Warm Linen",
+        "canonical": "#F7EADF",
+        "tonalRamp": [
+          "#1C130B",
+          "#382A1D",
+          "#574634",
+          "#76624D",
+          "#968169",
+          "#B8A28A",
+          "#DAC7B2",
+          "#F9E7D5"
+        ]
+      },
+      "strawberry": {
+        "role": "primary",
+        "displayName": "Strawberry",
+        "canonical": "#C82F45",
+        "tonalRamp": [
+          "#3A0002",
+          "#640013",
+          "#900E29",
+          "#BF2A40",
+          "#E05863",
+          "#FC858A",
+          "#FFB0B2",
+          "#FFD3D4"
+        ]
+      },
+      "strawberry-pressed": {
+        "role": "primary",
+        "displayName": "Strawberry Pressed",
+        "canonical": "#9E1C32",
+        "tonalRamp": [
+          "#2C0001",
+          "#4D000E",
+          "#75001F",
+          "#9E1C32",
+          "#C1444F",
+          "#E2737A",
+          "#FDA4A8",
+          "#FFCDD0"
+        ]
+      },
+      "cherry": {
+        "role": "secondary",
+        "displayName": "Cherry",
+        "canonical": "#8A1230",
+        "tonalRamp": [
+          "#3B0005",
+          "#63001A",
+          "#8C1732",
+          "#AA4654",
+          "#C76E77",
+          "#E2969C",
+          "#FEBEC2",
+          "#FFDFE2"
+        ]
+      },
+      "cherry-deep": {
+        "role": "secondary",
+        "displayName": "Cherry Deep",
+        "canonical": "#5E0B20",
+        "tonalRamp": [
+          "#2A0003",
+          "#490014",
+          "#6D0E26",
+          "#8F3343",
+          "#AF5B66",
+          "#CE858D",
+          "#EDB4B8",
+          "#FFE0E2"
+        ]
+      },
+      "leaf": {
+        "role": "tertiary",
+        "displayName": "Leaf",
+        "canonical": "#5C8A44",
+        "tonalRamp": [
+          "#071C00",
+          "#1D390C",
+          "#355822",
+          "#4F7939",
+          "#6F9B59",
+          "#94BB82",
+          "#BBDDAB",
+          "#DCF9CE"
+        ]
+      },
+      "leaf-deep": {
+        "role": "tertiary",
+        "displayName": "Leaf Deep",
+        "canonical": "#3F6A2E",
+        "tonalRamp": [
+          "#061600",
+          "#1B2F0C",
+          "#314C20",
+          "#4A6838",
+          "#668753",
+          "#85A873",
+          "#A6CB95",
+          "#C9F0B8"
+        ]
+      },
+      "leaf-soft": {
+        "role": "tertiary",
+        "displayName": "Leaf Soft",
+        "canonical": "#DDE8D3",
+        "tonalRamp": [
+          "#121A0D",
+          "#2C3527",
+          "#485141",
+          "#65705D",
+          "#838E7B",
+          "#A2AC9A",
+          "#C2CCBA",
+          "#E3EEDB"
+        ]
+      },
+      "blush": {
+        "role": "secondary",
+        "displayName": "Blush",
+        "canonical": "#F9DFE2",
+        "tonalRamp": [
+          "#1C1314",
+          "#372D2F",
+          "#554A4B",
+          "#75686A",
+          "#978889",
+          "#BCA8AB",
+          "#E2CACD",
+          "#FFE7EA"
+        ]
+      },
+      "plum-ink": {
+        "role": "neutral",
+        "displayName": "Plum Ink",
+        "canonical": "#33161D",
+        "tonalRamp": [
+          "#260C13",
+          "#43272D",
+          "#60454A",
+          "#7D6469",
+          "#9B868A",
+          "#BAA9AC",
+          "#DACDCF",
+          "#F8EBED"
+        ]
+      },
+      "plum-muted": {
+        "role": "neutral",
+        "displayName": "Plum Muted",
+        "canonical": "#7C5F63",
+        "tonalRamp": [
+          "#1D1213",
+          "#3A2B2D",
+          "#584849",
+          "#776668",
+          "#978486",
+          "#B8A6A8",
+          "#DBC8CA",
+          "#FBE7E9"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#E5D2C3",
+        "tonalRamp": [
+          "#1E150D",
+          "#392C21",
+          "#574738",
+          "#756150",
+          "#95806C",
+          "#B6A08B",
+          "#D8C3B1",
+          "#F8E5D6"
+        ]
+      },
+      "hairline-soft": {
+        "role": "neutral",
+        "displayName": "Hairline Soft",
+        "canonical": "#F0E1D5",
+        "tonalRamp": [
+          "#1C140D",
+          "#372B20",
+          "#554536",
+          "#73604E",
+          "#937F6A",
+          "#B59F89",
+          "#D7C2B1",
+          "#F5E4D6"
+        ]
+      },
+      "error-brick": {
+        "role": "neutral",
+        "displayName": "Error Brick",
+        "canonical": "#A32A2D",
+        "tonalRamp": [
+          "#2D0003",
+          "#50000F",
+          "#770A1C",
+          "#9E2A2D",
+          "#C15452",
+          "#E37F7A",
+          "#FFAAA4",
+          "#FFD1CC"
+        ]
+      },
+      "overlay-plum": {
+        "role": "neutral",
+        "displayName": "Overlay Plum",
+        "canonical": "#1B0C11",
+        "tonalRamp": [
+          "#1B0C11",
+          "#382A2F",
+          "#56484D",
+          "#75676C",
+          "#96888D",
+          "#B8AAAF",
+          "#DBCDD1",
+          "#F8EDEF"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Titular de portada y frase de marca; uno por pantalla."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Nombre «Juntos» y cabeceras de pantalla."
+      },
+      "headline-small": {
+        "displayName": "Headline small",
+        "purpose": "Acceso, registro y estados vacíos."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nombres de mes y títulos de recuerdo, también sobre foto."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Prosa, subtítulos y cuerpo de formularios."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Metadatos, etiquetas de campo y contadores."
+      },
+      "label-strong": {
+        "displayName": "Label strong",
+        "purpose": "Botones primarios y FAB."
+      },
+      "micro-label": {
+        "displayName": "Micro-label",
+        "purpose": "Insignias y contadores; nunca como eyebrow decorativo."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 10px 26px rgba(165,58,75,0.07), 0 2px 4px rgba(51,22,29,0.05)",
+        "purpose": "Bajo las tarjetas de recuerdo, apoyadas en el papel."
+      },
+      {
+        "name": "medallion",
+        "value": "0 8px 22px rgba(138,18,48,0.12)",
+        "purpose": "Logotipo circular y medallón de cámara de la hoja de creación."
+      },
+      {
+        "name": "action",
+        "value": "0 12px 24px rgba(200,47,69,0.20)",
+        "purpose": "FAB y botón de guardado: la única sombra coloreada."
+      },
+      {
+        "name": "dialog",
+        "value": "0 18px 48px rgba(27,12,17,0.18)",
+        "purpose": "Diálogos que interrumpen, como confirmar el borrado."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-cubic",
+        "value": "cubic-bezier(0.215, 0.61, 0.355, 1)",
+        "purpose": "Entrada del detalle de recuerdo y cambios de estado."
+      },
+      {
+        "name": "detail-in",
+        "value": "260ms cubic-bezier(0.215, 0.61, 0.355, 1)",
+        "purpose": "Fade-through del detalle con escala 1.015 → 1."
+      },
+      {
+        "name": "detail-out",
+        "value": "210ms cubic-bezier(0.215, 0.61, 0.355, 1)",
+        "purpose": "Vuelta del detalle al álbum."
+      },
+      {
+        "name": "control",
+        "value": "180ms ease-out",
+        "purpose": "Botones, focos y estados pulsados."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "360px"
+      },
+      {
+        "name": "compact",
+        "value": "412px"
+      },
+      {
+        "name": "tablet",
+        "value": "600px"
+      },
+      {
+        "name": "content-max",
+        "value": "560px"
+      },
+      {
+        "name": "auth-max",
+        "value": "440px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "La única acción primaria de una pantalla, con 56 px de alto y 18 px de radio.",
+      "html": "<button class=\"ds-btn-primary\" type=\"button\">Iniciar sesión</button>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; justify-content:center; width:100%; height:56px; padding:0 24px; border:0; border-radius:18px; background:#C82F45; color:#FFFCF7; font-family:'Manrope', system-ui, sans-serif; font-size:15px; font-weight:700; letter-spacing:.006em; cursor:pointer; transition:background 180ms ease-out, transform 180ms ease-out; } .ds-btn-primary:hover { background:#B3233A; } .ds-btn-primary:active { background:#9E1C32; transform:translateY(1px); } .ds-btn-primary:focus-visible { outline:2px solid #C82F45; outline-offset:3px; } .ds-btn-primary:disabled { background:#F7EADF; color:#84676B; cursor:not-allowed; }"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "description": "Acción secundaria o de navegación: solo texto de fresa y 48 px de toque.",
+      "html": "<button class=\"ds-btn-text\" type=\"button\">¿Aún no tienes cuenta? Crear una</button>",
+      "css": ".ds-btn-text { display:inline-flex; align-items:center; justify-content:center; min-height:48px; padding:10px 12px; border:0; border-radius:999px; background:transparent; color:#C82F45; font-family:'Manrope', system-ui, sans-serif; font-size:12.5px; font-weight:700; cursor:pointer; } .ds-btn-text:hover { background:rgba(200,47,69,.06); } .ds-btn-text:focus-visible { outline:2px solid #C82F45; outline-offset:2px; }"
+    },
+    {
+      "name": "Auth Input",
+      "kind": "input",
+      "refersTo": "input-field",
+      "description": "Campo relleno de lino con etiqueta flotante y borde de fresa al enfocar.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Correo electrónico</span><input class=\"ds-input\" type=\"email\" placeholder=\"ana@example.com\" /></label>",
+      "css": ".ds-field { position:relative; display:block; font-family:'Manrope', system-ui, sans-serif; } .ds-field-label { position:absolute; top:-8px; left:14px; padding:0 6px; background:#FFFCF7; color:#7F6165; font-size:12.5px; font-weight:600; line-height:1.2; z-index:1; } .ds-input { box-sizing:border-box; width:100%; height:56px; padding:0 18px; border:1px solid #F0E1D5; border-radius:16px; background:#F7EADF; color:#33161D; font-family:'Manrope', system-ui, sans-serif; font-size:14px; font-weight:400; outline:none; transition:border-color 180ms ease-out; } .ds-input::placeholder { color:#7E6368; } .ds-input:focus { border:1.6px solid #C82F45; } .ds-input:disabled { color:#84676B; background:#F1E2D5; }"
+    },
+    {
+      "name": "Extended FAB",
+      "kind": "button",
+      "refersTo": "fab-nuevo-recuerdo",
+      "description": "La única acción de añadir del álbum: cámara y «Nuevo recuerdo».",
+      "html": "<button class=\"ds-fab\" type=\"button\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 7.8A1.8 1.8 0 0 1 5.8 6h2.1l1-1.7h6.2l1 1.7h2.1A1.8 1.8 0 0 1 20 7.8v9.4a1.8 1.8 0 0 1-1.8 1.8H5.8A1.8 1.8 0 0 1 4 17.2V7.8Z\"/><circle cx=\"12\" cy=\"12.5\" r=\"3.4\"/></svg><span>Nuevo recuerdo</span></button>",
+      "css": ".ds-fab { display:inline-flex; align-items:center; gap:10px; height:56px; padding:0 22px; border:0; border-radius:18px; background:#C82F45; color:#FFFCF7; font-family:'Manrope', system-ui, sans-serif; font-size:15px; font-weight:700; cursor:pointer; box-shadow:0 12px 24px rgba(200,47,69,.20); transition:background 180ms ease-out, box-shadow 180ms ease-out, transform 180ms ease-out; } .ds-fab:hover { background:#B3233A; box-shadow:0 14px 28px rgba(200,47,69,.24); } .ds-fab:active { transform:translateY(1px); } .ds-fab:focus-visible { outline:2px solid #C82F45; outline-offset:3px; }"
+    },
+    {
+      "name": "Memory Card",
+      "kind": "card",
+      "refersTo": "memory-card",
+      "description": "Tarjeta de recuerdo: foto a sangre, scrim inferior y título en serif blanco.",
+      "html": "<article class=\"ds-card\"><img class=\"ds-card-img\" src=\"https://images.unsplash.com/photo-1556229868-7b2d4b56b909?auto=format&fit=crop&w=900&q=84\" alt=\"Recuerdo de playa al atardecer\" /><div class=\"ds-card-body\"><h3 class=\"ds-card-title\">Nuestro lugar favorito</h3><p class=\"ds-card-meta\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><rect x=\"3.5\" y=\"5.5\" width=\"17\" height=\"15\" rx=\"2.2\"/><path d=\"M8 3.5v4M16 3.5v4M3.5 10h17\"/></svg>14 de junio de 2025 · 20:42</p><p class=\"ds-card-meta\"><svg width=\"13\" height=\"13\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M19 10c0 5-7 10-7 10S5 15 5 10a7 7 0 1 1 14 0Z\"/><circle cx=\"12\" cy=\"10\" r=\"2.2\"/></svg>Playa de Bolonia, Cádiz</p></div></article>",
+      "css": ".ds-card { position:relative; display:block; width:100%; aspect-ratio:3/2; overflow:hidden; border-radius:22px; background:#FFFCF7; box-shadow:0 10px 26px rgba(165,58,75,.07), 0 2px 4px rgba(51,22,29,.05); font-family:'Manrope', system-ui, sans-serif; } .ds-card-img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; display:block; } .ds-card::after { content:''; position:absolute; inset:0; background:linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(0,0,0,.08) 55%, rgba(0,0,0,.75) 100%); } .ds-card-body { position:absolute; left:16px; right:16px; bottom:16px; z-index:1; } .ds-card-title { margin:0 0 7px; color:#FFFFFF; font-family:'DM Serif Display', Georgia, serif; font-size:20px; font-weight:400; line-height:1.2; letter-spacing:-.01em; } .ds-card-meta { display:flex; align-items:center; gap:6px; margin:3px 0 0; color:rgba(255,255,255,.84); font-size:10.5px; font-weight:500; line-height:1.3; }"
+    },
+    {
+      "name": "Month Header",
+      "kind": "nav",
+      "description": "La columna vertebral: punto de fruta, mes en serif, línea de mantel y contador.",
+      "html": "<div class=\"ds-month\"><span class=\"ds-month-dot\"></span><span class=\"ds-month-name\">Junio 2025</span><span class=\"ds-month-line\"></span><span class=\"ds-month-count\">1 recuerdo</span></div>",
+      "css": ".ds-month { display:flex; align-items:center; gap:10px; font-family:'Manrope', system-ui, sans-serif; } .ds-month-dot { width:8px; height:8px; margin-right:4px; border-radius:50%; background:#C82F45; box-shadow:0 0 0 5px rgba(200,47,69,.14); flex:none; } .ds-month-name { color:#33161D; font-family:'DM Serif Display', Georgia, serif; font-size:20px; font-weight:400; line-height:1.2; letter-spacing:-.01em; white-space:nowrap; } .ds-month-line { height:1px; flex:1; background:#EAD8C9; } .ds-month-count { color:#7C5F63; font-size:12.5px; font-weight:500; white-space:nowrap; }"
+    },
+    {
+      "name": "Meta Pill",
+      "kind": "chip",
+      "refersTo": "meta-pill",
+      "description": "Píldora sólida de metadatos sobre la foto del detalle.",
+      "html": "<span class=\"ds-pill\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><rect x=\"3.5\" y=\"5.5\" width=\"17\" height=\"15\" rx=\"2.2\"/><path d=\"M8 3.5v4M16 3.5v4M3.5 10h17\"/></svg>19 de abril de 2025 · 17:06</span>",
+      "css": ".ds-pill { display:inline-flex; align-items:center; gap:7px; padding:8px 12px; border-radius:999px; border:1px solid rgba(255,255,255,.12); background:rgba(27,12,17,.62); color:#FFFCF7; font-family:'Manrope', system-ui, sans-serif; font-size:12.5px; font-weight:500; line-height:1.4; } .ds-pill svg { color:rgba(255,255,255,.8); flex:none; }"
+    },
+    {
+      "name": "Sin foto Badge",
+      "kind": "chip",
+      "refersTo": "badge-sin-foto",
+      "description": "Estado honesto de un recuerdo guardado sin foto.",
+      "html": "<span class=\"ds-badge\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" aria-hidden=\"true\"><path d=\"M20 4C13 4 6 8 5 19c7 1 14-3 15-15Z\"/><path d=\"M5 19C9 13 13 9 20 4\"/></svg>Sin foto</span>",
+      "css": ".ds-badge { display:inline-flex; align-items:center; gap:4px; padding:4px 9px; border-radius:999px; background:#DDE8D3; color:#3F6A2E; font-family:'Manrope', system-ui, sans-serif; font-size:10px; font-weight:700; letter-spacing:.03em; line-height:1.3; } .ds-badge svg { flex:none; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "La mesa del domingo",
+    "overview": "Juntos se parece más al cuaderno de recetas que hay sobre la mesa de una casa que a una rejilla de fotos. La mesa está cubierta con un mantel de papel crema; en el centro, un cuenco de fresas y guindas. Esa es la imagen que gobierna el sistema: cálida, comestible, íntima y sin ninguna prisa.\n\nLa interfaz se queda quieta para que la foto sea el plato principal. El logotipo aporta el carácter dibujado a mano —la fresa sonriente y la guinda que se dan la mano—, mientras que la tipografía y las superficies aportan el tono editorial. No hay brillos, cristal, degradados de texto ni mecánicas de red social: solo papel, fruta y recuerdos con nombre.\n\nLa densidad es baja. El archivo se lee como una cronología por meses, con una tarjeta protagonista por mes y pares de fotos debajo. Los controles son pocos y familiares; el acento de fresa aparece únicamente donde hay una acción que tomar.",
+    "keyCharacteristics": [
+      "Fondo de papel crema, nunca blanco puro.",
+      "Fresa para la acción, guinda para la profundidad, hoja para el apoyo.",
+      "Serif editorial para recuerdos y marca; sans para controles y metadatos.",
+      "Fotos a sangre con esquinas de papel recortado (22 px) y sombra cálida hacia abajo.",
+      "Cronología por meses como columna vertebral; un solo botón de añadir por pantalla.",
+      "Estados honestos para lo que aún no existe: «Sin foto», «Foto pendiente»."
+    ],
+    "rules": [
+      {
+        "name": "The Cream Tablecloth Rule",
+        "body": "El fondo de página es papel crema; el blanco puro solo existe como superficie elevada. Un fondo blanco frío rompe el mundo de la mesa.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Fruits, Two Jobs Rule",
+        "body": "La fresa es acción; la guinda es profundidad. Nunca se intercambian, y la hoja jamás asume el papel de botón primario.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ten Percent Rule",
+        "body": "El color fruta saturado ocupa como máximo el 10 % de una pantalla. Su rareza es lo que hace que el botón se encuentre sin buscarlo.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif Remembers Rule",
+        "body": "Si es un recuerdo, un mes o un momento de marca, se compone en DM Serif. Si es una acción, un control, una fecha o un metadato, se compone en Manrope.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sans Operates Rule",
+        "body": "Ningún botón, pestaña, campo o etiqueta usa la serif. La serif no se toca.",
+        "section": "typography"
+      },
+      {
+        "name": "The Paper Lift Rule",
+        "body": "La elevación se lee como una tarjeta levantada de la mesa: borde suave, sombra hacia abajo y un halo mínimo. Un resplandor de desplazamiento cero es decoración, no profundidad.",
+        "section": "elevation"
+      },
+      {
+        "name": "The One Dark Room Rule",
+        "body": "La única superficie oscura de la app es el detalle de un recuerdo a pantalla completa. Allí el scrim es tinta de ciruela, las píldoras son sólidas y no hay cristal.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do mantener el fondo en Paper cream y dejar que las fotos aporten la saturación.",
+      "Do reservar Strawberry para la acción primaria, el foco y el punto del mes más reciente.",
+      "Do componer recuerdos y meses en DM Serif; controles, fechas y etiquetas en Manrope.",
+      "Do recortar las fotos a 22 px y apoyarlas con la sombra Card hacia abajo.",
+      "Do mostrar estados honestos: «Sin foto», «Foto pendiente», «La cámara llegará en la próxima versión».",
+      "Do mantener un solo botón de añadir por pantalla y 48 dp de área de toque.",
+      "Do dejar el pie de guardado visible por encima del teclado."
+    ],
+    "donts": [
+      "Don't usar blanco puro como fondo de página, grises fríos ni sombras azuladas.",
+      "Don't convertir la hoja verde en botón primario ni usarla para errores.",
+      "Don't añadir una cámara en la cabecera, otra barra inferior o un segundo FAB.",
+      "Don't poner la serif en botones, pestañas, etiquetas de campo o fechas.",
+      "Don't usar glassmorphism, desenfoques decorativos, degradados de texto ni halos de desplazamiento cero.",
+      "Don't inventar fotos, personas o testimonios: las fotos semilla de Unsplash son material de demostración."
+    ]
+  }
+}
