@@ -1,0 +1,10 @@
+{
+  "description": "A shared photo album for couples to preserve memories with a title and automatic date, time, and location details.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
