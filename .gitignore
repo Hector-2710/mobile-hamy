@@ -52,3 +52,10 @@ macos/
 linux/
 web/
 windows/
+.agent/
+.agents
+.claude
+.cursor
+.gemini
+.opencode
+.impeccable/
