@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart';
 
 /// Configuración base de la app.
 abstract final class AppConfig {
-  static const String appName = 'Juntos';
+  static const String appName = 'hamy';
 
   static const String _localhost = 'http://localhost:8080';
   static const String _androidEmulatorHost = 'http://10.0.2.2:8080';

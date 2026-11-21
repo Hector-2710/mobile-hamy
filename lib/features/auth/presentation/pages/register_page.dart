@@ -66,35 +66,37 @@ class _RegisterPageState extends State<RegisterPage> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            Row(
-                              children: [
-                                IconButton(
-                                  onPressed: () =>
-                                      Navigator.of(context).maybePop(),
-                                  tooltip: 'Volver',
-                                  icon: const Icon(
-                                    Icons.arrow_back_rounded,
-                                    size: 22,
-                                  ),
+                            Align(
+                              alignment: Alignment.centerLeft,
+                              child: IconButton(
+                                onPressed: () =>
+                                    Navigator.of(context).maybePop(),
+                                tooltip: 'Volver',
+                                icon: const Icon(
+                                  Icons.arrow_back_rounded,
+                                  size: 22,
                                 ),
-                                const SizedBox(width: 2),
-                                const AppLogo(size: 34),
-                                const SizedBox(width: 10),
-                                Text(
-                                  'Juntos',
-                                  style: Theme.of(context).textTheme.titleLarge,
-                                ),
-                              ],
+                              ),
                             ),
-                            const SizedBox(height: 26),
+                            const SizedBox(height: 4),
+                            const Center(child: AppLogo(size: 94)),
+                            const SizedBox(height: 14),
+                            Text(
+                              'hamy',
+                              textAlign: TextAlign.center,
+                              style: Theme.of(context).textTheme.headlineMedium,
+                            ),
+                            const SizedBox(height: 30),
                             Text(
                               'Crea tu cuenta',
+                              textAlign: TextAlign.center,
                               style: Theme.of(context).textTheme.headlineSmall,
                             ),
                             const SizedBox(height: 8),
                             Text(
                               'Empieza a guardar los momentos que querréis '
                               'recordar.',
+                              textAlign: TextAlign.center,
                               style: Theme.of(context).textTheme.bodyMedium,
                             ),
                             const SizedBox(height: 28),

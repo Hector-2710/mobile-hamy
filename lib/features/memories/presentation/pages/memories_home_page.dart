@@ -234,23 +234,24 @@ class _Header extends StatelessWidget {
               children: [
                 Row(
                   children: [
+                    _CoupleAvatars(initial: initial),
                     Expanded(
                       child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'Juntos',
+                            'hamy',
+                            textAlign: TextAlign.center,
                             style: Theme.of(context).textTheme.headlineMedium,
                           ),
                           Text(
                             'Nuestro álbum',
+                            textAlign: TextAlign.center,
                             style: Theme.of(context).textTheme.bodySmall
                                 ?.copyWith(color: AppColors.textMeta),
                           ),
                         ],
                       ),
                     ),
-                    _CoupleAvatars(initial: initial),
                     PopupMenuButton<String>(
                       tooltip: 'Más opciones',
                       icon: const Icon(Icons.more_horiz_rounded),

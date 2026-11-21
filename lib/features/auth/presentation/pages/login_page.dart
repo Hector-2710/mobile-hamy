@@ -65,22 +65,15 @@ class _LoginPageState extends State<LoginPage> {
                             const Center(child: AppLogo(size: 94)),
                             const SizedBox(height: 14),
                             Text(
-                              'Juntos',
+                              'hamy',
                               textAlign: TextAlign.center,
                               style: Theme.of(context).textTheme.headlineMedium,
                             ),
                             const SizedBox(height: 30),
                             Text(
-                              'Bienvenido de vuelta',
+                              'Tus recuerdos con esa persona, siempre a mano.',
                               textAlign: TextAlign.center,
                               style: Theme.of(context).textTheme.headlineSmall,
-                            ),
-                            const SizedBox(height: 8),
-                            Text(
-                              'Entra para volver a recorrer vuestros '
-                              'recuerdos.',
-                              textAlign: TextAlign.center,
-                              style: Theme.of(context).textTheme.bodyMedium,
                             ),
                             const SizedBox(height: 30),
                             TextFormField(

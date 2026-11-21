@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:material_ui/material_ui.dart';
 import 'package:intl/date_symbol_data_local.dart';
 
@@ -22,12 +24,14 @@ Future<void> main() async {
   final authController = AuthController(authRepository);
   apiClient.onUnauthorized = authController.logout;
 
-  await authController.bootstrap();
-
   runApp(
     AppScope(
       controller: authController,
       child: HamyApp(auth: authController),
     ),
   );
+
+  // El arranque corre después del primer frame para que la pantalla de carga
+  // con el logotipo se vea al menos un segundo antes de la transición.
+  unawaited(authController.bootstrap());
 }
