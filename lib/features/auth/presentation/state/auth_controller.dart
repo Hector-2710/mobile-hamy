@@ -53,7 +53,8 @@ class AuthController extends ChangeNotifier {
     } on ApiException catch (e) {
       errorMessage = e.message;
     } catch (_) {
-      errorMessage = 'No se pudo iniciar sesión.';
+      errorMessage = 'No se pudo iniciar sesión. Revisa tu conexión e '
+          'inténtalo de nuevo.';
     }
     isLoading = false;
     notifyListeners();
@@ -134,7 +135,8 @@ class AuthController extends ChangeNotifier {
     } on ApiException catch (e) {
       errorMessage = e.message;
     } catch (_) {
-      errorMessage = 'No se pudo crear la cuenta.';
+      errorMessage = 'No se pudo crear la cuenta. Revisa tu conexión e '
+          'inténtalo de nuevo.';
     }
     isLoading = false;
     notifyListeners();

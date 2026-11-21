@@ -27,7 +27,23 @@ class ApiException implements Exception {
           code: err['code'] as String?,
           statusCode: statusCode,
         );
+      } else if (err is String && err.isNotEmpty) {
+        return ApiException(
+          message: err,
+          statusCode: statusCode,
+        );
+      } else if (data['message'] is String && (data['message'] as String).isNotEmpty) {
+        return ApiException(
+          message: data['message'] as String,
+          code: data['code'] as String?,
+          statusCode: statusCode,
+        );
       }
+    } else if (data is String && data.isNotEmpty) {
+      return ApiException(
+        message: data,
+        statusCode: statusCode,
+      );
     }
 
     switch (error.type) {
