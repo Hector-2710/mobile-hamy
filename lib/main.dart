@@ -7,6 +7,8 @@ import 'app/app.dart';
 import 'app/app_scope.dart';
 import 'core/network/api_client.dart';
 import 'core/storage/token_storage.dart';
+import 'features/albums/data/datasources/albums_remote_datasource.dart';
+import 'features/albums/data/repositories/albums_repository.dart';
 import 'features/auth/data/datasources/auth_remote_datasource.dart';
 import 'features/auth/data/repositories/auth_repository.dart';
 import 'features/auth/presentation/state/auth_controller.dart';
@@ -24,9 +26,12 @@ Future<void> main() async {
   final authController = AuthController(authRepository);
   apiClient.onUnauthorized = authController.logout;
 
+  final albumsRepository = AlbumsRepository(AlbumsRemoteDatasource(apiClient));
+
   runApp(
     AppScope(
       controller: authController,
+      albums: albumsRepository,
       child: HamyApp(auth: authController),
     ),
   );
