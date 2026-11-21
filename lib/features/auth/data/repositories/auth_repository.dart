@@ -14,11 +14,7 @@ class AuthRepository {
     required String password,
   }) async {
     final session = await remote.login(email: email, password: password);
-    await tokenStorage.saveSession(
-      accessToken: session.accessToken,
-      expiresAtIso: session.expiresAt.toIso8601String(),
-    );
-    return session;
+    return _saveSession(session);
   }
 
   Future<SessionModel> register({
@@ -31,11 +27,13 @@ class AuthRepository {
       email: email,
       password: password,
     );
-    await tokenStorage.saveSession(
-      accessToken: session.accessToken,
-      expiresAtIso: session.expiresAt.toIso8601String(),
-    );
-    return session;
+    return _saveSession(session);
+  }
+
+  /// Intercambia un ID token de Google por una sesión normal de hamy.
+  Future<SessionModel> loginWithGoogle({required String idToken}) async {
+    final session = await remote.loginWithGoogle(idToken: idToken);
+    return _saveSession(session);
   }
 
   Future<UserModel> me() => remote.me();
@@ -46,4 +44,12 @@ class AuthRepository {
   }
 
   Future<void> logout() => tokenStorage.clear();
+
+  Future<SessionModel> _saveSession(SessionModel session) async {
+    await tokenStorage.saveSession(
+      accessToken: session.accessToken,
+      expiresAtIso: session.expiresAt.toIso8601String(),
+    );
+    return session;
+  }
 }

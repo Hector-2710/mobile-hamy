@@ -31,6 +31,14 @@ class AuthRemoteDatasource {
     return SessionModel.fromJson(response.data!);
   }
 
+  Future<SessionModel> loginWithGoogle({required String idToken}) async {
+    final response = await _client.post<Map<String, dynamic>>(
+      ApiEndpoints.googleLogin,
+      data: {'id_token': idToken},
+    );
+    return SessionModel.fromJson(response.data!);
+  }
+
   Future<UserModel> me() async {
     final response = await _client.get<Map<String, dynamic>>(ApiEndpoints.me);
     final data = response.data!['data'] as Map<String, dynamic>;

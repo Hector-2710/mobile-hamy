@@ -13,6 +13,20 @@ abstract final class AppConfig {
     'API_BASE_URL',
   );
 
+  /// Web Client ID de Google OAuth.
+  ///
+  /// Es el mismo que la API valida como audience de los ID tokens. En iOS
+  /// funciona como `serverClientId` (el ID token lo pide contra este) y en
+  /// Android igual; el Client ID de iOS y el de Android no se pasan en el
+  /// código (Android se deriva del paquete + SHA-1 y iOS va en Info.plist).
+  ///
+  /// Sobrescribir con: --dart-define=GOOGLE_WEB_CLIENT_ID=xxx.apps.googleusercontent.com
+  static const String googleWebClientId = String.fromEnvironment(
+    'GOOGLE_WEB_CLIENT_ID',
+    defaultValue:
+        '730984096128-osm3eklko71mmhlrhhgc2jud1q56osfs.apps.googleusercontent.com',
+  );
+
   /// Base URL de la API (api-hamy).
   ///
   /// En el emulador Android, `localhost` apunta al propio emulador; la IP del

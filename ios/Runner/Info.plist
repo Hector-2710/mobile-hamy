@@ -66,5 +66,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+
+	<!-- Google Sign-In: IDs del cliente iOS y Web del proyecto apy-hamy. -->
+	<key>GIDClientID</key>
+	<string>730984096128-j8p7anjm9psf3oc3t1v5f8b4tpcj4bgo.apps.googleusercontent.com</string>
+	<key>GIDServerClientID</key>
+	<string>730984096128-osm3eklko71mmhlrhhgc2jud1q56osfs.apps.googleusercontent.com</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.730984096128-j8p7anjm9psf3oc3t1v5f8b4tpcj4bgo</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
